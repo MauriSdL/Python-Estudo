@@ -1,2 +1,2 @@
 # Software free
- Feitos durante Meus estudos de Python
+ O que Eu  realmente aprendi e domino na linguagem python
