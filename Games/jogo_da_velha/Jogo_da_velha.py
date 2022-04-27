@@ -1,6 +1,6 @@
 from tkinter import *
 
-class jogo_da_velha:
+class jogo_da_velha:()
 
     def __init__(self):
         self.janela = Tk()
@@ -15,7 +15,7 @@ class jogo_da_velha:
         self.titulo.pack(pady=2, side=TOP)
         self.PLacar = Frame(self.janela, bg="pink", width=800, height=50)
         self.PLacar.pack(pady=16, side=TOP)
-      # Placar com nome dos jogadores e a Pontuaçao   
+    
         self.Pontos_jogador1 = Label(self.PLacar, text="00", font="Arial 14 bold", bg="pink", fg="black",foreground="#00BFFF")  # #00BFFF cor Azul igual o da bolinha
         self.Pontos_jogador1.pack(side="left", padx=145)
         self.Pontuaçao = Label(self.PLacar, text="          Pontuaçao          ", font="Arial 15 bold", bg="pink", fg="black")
@@ -46,13 +46,13 @@ class jogo_da_velha:
       # Frame da Minha Assinatura
         self.minhaAssinatura = Frame(self.janela, bg="yellow", height=9)
         self.minhaAssinatura.pack(side=BOTTOM)             
-        self.Assinatura_Rodape = Label(self.minhaAssinatura, text="Criado por: Mauri Sebastiao da Luz", font="Arial 11",  bg="black", fg="white", width=800)
+        self.Assinatura_Rodape = Label(self.minhaAssinatura, text="Criado por: Mauri Sebastiao da Luz", font="Arial 11", bg="black", fg="white", width=800)
         self.Assinatura_Rodape.pack(pady=6, side=BOTTOM)
       # Frame do Botão Add Nomes dos Jogadores
         self.Frame_do_Botão_Add_Nomes_dos_Jogadores = Frame(self.janela, bg="pink", width=800)
         self.Frame_do_Botão_Add_Nomes_dos_Jogadores.pack(pady=37)
       # Logo 0 32x32        
-        logoBola = PhotoImage(file="/home/mauri/PYTHON/venv/Games/jogo_da_velha_zilda/CIRCULO32x32.png")
+        logoBola = PhotoImage(file="/home/mauri/Documentos/GitHub/Software free/Games/jogo_da_velha_zilda/CIRCULO32x32.png")
         self.LabelBola_Label = Label(self.Frame_do_Botão_Add_Nomes_dos_Jogadores, image=logoBola, bg="pink")
         self.LabelBola_Label.pack(padx=1, side=LEFT)
       # Jogador 1 do rodape        
@@ -94,7 +94,8 @@ class jogo_da_velha:
         self.entrada_nome_do_jogador2.pack(side=RIGHT, padx=40, pady=1)       
       # Label de cadastro dos jogadores
         self.jogador1 = Label(self.Frame_cadastro_dos_jogadores, text="Jogador  1", font="Arial 12 bold", bg="pink", fg="black")
-        self.jogador1.pack(side=LEFT,pady=14, padx=67)
+        self.jogador1.pack(side=LEFT,pady=14, padx        self.Assinatura_Rodape = Label(self.minhaAssinatura, text="Criado por: Mauri Sebastiao da Luz", font="Arial 11",  bg="black", fg="white", width=800)
+=67)
         self.jogador2 = Label(self.Frame_cadastro_dos_jogadores, text="Jogador  2", font="Arial 12 bold", bg="pink", fg="black")
         self.jogador2.pack(side=RIGHT,pady=14, padx=67)
       # Icones grandes 90x90 Cadastro dos jogadores
