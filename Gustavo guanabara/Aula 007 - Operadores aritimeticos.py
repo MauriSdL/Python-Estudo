@@ -1,4 +1,6 @@
+
 # Operadores aritimeticos
+
 # + soma
 # - subtração
 # * multiplicação
@@ -32,7 +34,7 @@
 
  # Determinando quantidade de espaços e Preenchimento de espaços e centralizar dentro do espaço
 
-# {:9}8 quantidade de espaços
+# {:9} quantidade de espaços
 # {:>9} alinhado a direita
 # {:<9} alinhado a esquerda
 # {:^9} alinhado ao centro
@@ -48,7 +50,7 @@ print('Prazer em te conhecer {:=^9}!'.format(nome))
 '''
 
 # Quantidade de casa depois da virgula ou ponto
-# {:.3f} Sempre depois dos : colocar . Quantidade de casa e f fignifica formatar Ex:
+# {:.3f} Sempre depois dos : colocar . Quantidade de casa e f fignifica flutuante Ex:
 gasto = float(input('Digite um valor extenço: '))
 print('voce gastou \n{:.4f}'.format(gasto), end=' ')
 print('valor real', {gasto})
