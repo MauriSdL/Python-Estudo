@@ -3,4 +3,4 @@
 num = float(input('Digite um numero: '))
 print(num * 2)
 print(num * 3)
-print(num ** (1/2))
+print(num ** (1/2)) # ou usar pow pra fazer raiz quadrada

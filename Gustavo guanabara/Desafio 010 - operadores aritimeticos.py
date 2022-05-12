@@ -7,4 +7,4 @@ reais = float(input('Quantos reais voçê tem em carteira? '))
 dollar = cotacao
 resultado = reais / 5.13
 
-print('Você coseguiu comprar {:.2f} dollar com {} reais'.format(resultado, reais))
+print('Você cosegui comprar {:.2f} dollar com {} reais'.format(resultado, reais))
