@@ -2,6 +2,11 @@
 
 # int = inteiro numeros sem ponto e virgula
 # float = flutuantes sao numeros com ponto e virgula
+# complex = Para numeros complexos
+# tipo de seguencia = list, tuple, range
+# tipo de mapeamento = dict
+# tipos de conjuntos = set, frozenset
+# tipo binarios = bytes, bytearray, memoryview
 # bool = True False
 # str = é um texto
 
