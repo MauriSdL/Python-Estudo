@@ -52,3 +52,9 @@ print(type(varC))
 num = random.randrange(1, 10)
 print(num)
 print(random.randrange(1, 10))
+print('=' * 10)
+print()
+
+for x in "Mauri":
+    print(x)
+print()
