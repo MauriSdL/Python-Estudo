@@ -1,3 +1,5 @@
+import os
+os.system("clear") or None
 
 # Alterar itens da lista
 nome = ["Gabriel", "Dany", "Artur", "João"]
