@@ -1,3 +1,5 @@
+import os
+os.system('clear') or None
 
 # Escreva um programa que leia um valor em metros e o exiba covertido em centimetros e milimetros.
 

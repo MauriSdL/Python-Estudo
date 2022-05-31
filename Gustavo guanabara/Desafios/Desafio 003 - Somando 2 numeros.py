@@ -1,3 +1,6 @@
+import os
+os.system('clear') or None
+
 # Crie um programa que leia dois números e mostre a soma entre eles.
 
 n1 = float(input('Digite o primeiro numero: '))

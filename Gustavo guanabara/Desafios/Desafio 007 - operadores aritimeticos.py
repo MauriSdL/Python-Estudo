@@ -1,3 +1,5 @@
+import os
+os.system('clear') or None
 
 # Desenvolva um programa que leia as duas notas de um aluno, Calcule e mostre a sua media
 

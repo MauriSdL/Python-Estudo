@@ -1,3 +1,6 @@
+import os
+os.system('clear') or None
+
 # Crie um algoritimo que leia um numero e mostre o seu dobro, triplo e raiz quadrada.
 
 num = float(input('Digite um numero: '))
