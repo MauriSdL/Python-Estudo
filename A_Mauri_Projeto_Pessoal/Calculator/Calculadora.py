@@ -1,3 +1,6 @@
+import os
+os.system('clear') or None
+
 from curses import window
 from sqlite3 import Row
 from tkinter import *
