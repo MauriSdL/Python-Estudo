@@ -1,3 +1,5 @@
+import os
+os.system("clear") or None
 
 # Conversor de temperaturas
 
@@ -7,4 +9,4 @@ Celsius =  float(input('Temperatura em Celsius (°C): '))
 
 Fahrenheit = Celsius * 1.8 + 32
 
-print('{}°C convertidos para Fahrenheit fica {}°F'.format(Celsius, Fahrenheit))
+print(f'{Celsius}°C convertidos para Fahrenheit fica {Fahrenheit}°F')

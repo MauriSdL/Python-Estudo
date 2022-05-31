@@ -8,4 +8,4 @@ porcentagem = int(input('Desconto em porcentagem: '))
 desconto = (porcentagem * valor_total) / 100
 valor_a_cobrar = valor_total - desconto
 
-print('O produto {} com {}% de desconto custará {:.2f} reais'.format(Produto, porcentagem, valor_a_cobrar))
+print(f'O produto {Produto} com {porcentagem}% de desconto custará {valor_a_cobrar:.2f} reais')
