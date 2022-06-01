@@ -4,6 +4,7 @@ os.system('clear') or None
 # Faça um programa que leia um numero inteiro qualquer e mostre na tela a sua tabuada.
 
 tabuada = int(input('Deseja calcular qual Tabuada?: '))
+print()
 print('{} x {:2} = {:2}'.format(tabuada, 1, tabuada * 1))
 print('{} x {:2} = {:2}'.format(tabuada, 2, tabuada * 2))
 print('{} x {:2} = {:2}'.format(tabuada, 3, tabuada * 3))
@@ -14,4 +15,5 @@ print('{} x {:2} = {:2}'.format(tabuada, 7, tabuada * 7))
 print('{} x {:2} = {:2}'.format(tabuada, 8, tabuada * 8))
 print('{} x {:2} = {:2}'.format(tabuada, 9, tabuada * 9))
 print('{} x {:2} = {:2}'.format(tabuada, 10, tabuada * 10))
+print()
 
